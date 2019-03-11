@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "Rum-Raisin-Cyrillic";
+	src: url("../fonts/rum-raisin-cyrillic.eot") format("eot"),
+		url("../fonts/rum-raisin-cyrillic.svg") format("svg"),
+		url("../fonts/rum-raisin-cyrillic.ttf") format("ttf"),
+		url("../fonts/rum-raisin-cyrillic.woff") format("woff"),
+		url("../fonts/rum-raisin-cyrillic.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gift Clicker</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="black-block" id="blackScreen">
+      <input type="text" class="user-name" id="userName" maxlength="6" placeholder="Введите имя">
+      <button class="button" id="userSubmit">></button>
+      <div class="paper _hidden" id="paper">
+        <div class="paper__title" id="congratulation">
+        </div>
+        <div class="paper__wish">
+          Санта желает тебе:
+        </div>
+        <div class="paper__wish">
+          Хорошо отметить НГ!
+        </div>
+        <div class="paper__wish _hidden" id="wish1">
+          Отличного здоровья!
+        </div>
+        <div class="paper__wish _hidden" id="wish2">
+          Надежных друзей!
+        </div>
+        <div class="paper__wish _hidden" id="wish3">
+          Всегда высыпаться!
+        </div>
+      </div>
+    </div>
+    <div class="sky" id="sky">
+    </div>
+    <div class="top-curtain">
+      <div class="board _user-icon _icon" id="nameboard">
+      </div>
+      <div class="board _small-board _calendar-icon _icon" id="dateboard">
+      </div>
+      <div class="board _small-board _elf-icon _icon" id="populationboard">
+      </div>
+      <div class="board _gift-icon _icon" id="scoreboard">
+      </div>
+    </div>
+    <div class="sky-space">
+    </div>
+    <div class="constructions">
+      <div class="mine">
+        <div class="elf-container _hidden" id="elf1">
+          <div class="elf-stick">
+          </div>
+          <div class="elf">
+          </div>
+        </div>
+        <div class="elf-container _hidden" id="elf2">
+          <div class="elf-stick">
+          </div>
+          <div class="elf">
+          </div>
+        </div>
+        <div class="elf-container _hidden" id="elf3">
+          <div class="elf-stick">
+          </div>
+          <div class="elf">
+          </div>
+        </div>
+        <div class="elf-container _hidden" id="elf4">
+          <div class="elf-stick">
+          </div>
+          <div class="elf">
+          </div>
+        </div>
+        <div class="elf-container _hidden" id="elf5">
+          <div class="elf-stick">
+          </div>
+          <div class="elf">
+          </div>
+        </div>
+      </div>
+      <div class="village">
+        <div class="house-container" id="house1">
+          <div class="house-stick">
+          </div>
+          <div class="house">
+          </div>
+        </div>
+        <div class="house-container _hidden" id="house2">
+          <div class="house-stick">
+          </div>
+          <div class="house">
+          </div>
+        </div>
+        <div class="house-container _hidden" id="house3">
+          <div class="house-stick">
+          </div>
+          <div class="house">
+          </div>
+        </div>
+        <div class="house-container _hidden" id="house4">
+          <div class="house-stick">
+          </div>
+          <div class="house">
+          </div>
+        </div>
+        <div class="house-container _hidden" id="house5">
+          <div class="house-stick">
+          </div>
+          <div class="house">
+          </div>
+        </div>
+      </div>
+      <div class="mountains">
+      </div>
+    </div>
+    <div class="snow">
+      <div class="gift" id="gift">
+        <div class="gift-button" id="giftButton">
+        </div>
+        <div class="gift-stick">
+        </div>
+      </div>
+    </div>
+    <div class="half-snow">
+      <div class="upgrade-button _gift-dark _icon" id="mineLvlUp">
+      </div>
+      <div class="upgrade-button _gift-dark _icon" id="clickLvlUp">
+      </div>
+      <div class="upgrade-button _gift-dark _icon" id="villageLvlUp">
+      </div>
+      <div class="upgrade-info" id="info">
+        <div id="valueBefore">
+        </div>
+        <div id="valueAfter">
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+    </div>
+    <div class="score-cheat" id="scoreCheat">
+    </div>
+    <div class="day-cheat" id="dayCheat">
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>
